@@ -1,0 +1,70 @@
+
+.createQuotes{
+    flex:0.4;
+    padding: 10px;
+    margin: 5px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.quotes_header{
+    display: flex;
+    flex-direction: column;
+    font-style: oblique;
+    align-items: center;
+}
+
+
+.quotes_header>p{
+    align-self: flex-end;
+    padding: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.createQuotes_null{
+    display: none;
+}
+
+.quotePost{
+    display: flex;
+    /* position: relative; */
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 11px;
+    flex-direction: column;
+}
+
+.quotePost>img{
+    width: 100%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    object-fit: cover;
+}
+.quotePost>p{
+    /* border: 1px solid pink; */
+    /* position: relative; */
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:left;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.quotePost>p:hover{
+    color: gray;
+}
+
+.quotePost>h3{
+    font-size: 0.6rem;
+    align-self: flex-end;
+}
+.quotePost>h3>span{
+    color: red;
+    font-size: 0.7rem ;
+}
+

@@ -1,0 +1,116 @@
+
+.createPost{
+    flex:0.7;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.form_Header{
+    margin-top: 10px;
+    font-style: oblique;
+}
+.createPost_full{
+    flex:0.6;
+    flex-direction: column;
+    border-radius: 10px;
+    /* margin: auto; */
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+.form_Body{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.createPost>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    color: gray;
+}
+.createPost_full>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    color: gray;
+}
+
+.createPost>p>span{
+    color: red;
+    cursor: pointer;
+}
+.createPost_full>p>span{
+    color: red;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin: 10px 10px  ;
+}
+
+form>input{
+    padding: 22px 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    color: gray;
+    margin-top: 10px;
+}
+
+form>input:focus{
+    border-color: lightseagreen;
+    border-radius: 10px;
+}
+form>textarea{
+    width:100%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color: gray;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: oblique;
+    resize:vertical;
+    outline: none;
+    cursor: pointer;
+}
+form>textarea:focus{
+    border-color: lightseagreen;
+    border-radius: 10px;
+}
+
+
+.form_Body>form>button{
+    background-color: rgb(77, 49, 201);
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size:15px;
+    color: white;
+    cursor: pointer;
+
+}

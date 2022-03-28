@@ -1,0 +1,31 @@
+.header{
+  position: sticky;
+  top:0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #1DA1F2;
+  align-items: center;
+  box-shadow: -4px -3px 15px 1px rgba(0,0,0,0.3);
+}
+
+body{
+  background-color: #FFFC00;
+}
+
+.header_left{
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.header_right>Button{
+  margin-right: 10px;
+}
+.app_body{
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+}
+
+
+
